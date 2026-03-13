@@ -2,7 +2,7 @@
 
 A simple Telegram bot that reads your email inbox through IMAP and sends the latest ChatGPT verification code back to Telegram.
 
-This project uses Kurigram.
+This project uses [Kurigram](https://github.com/KurimuzonAkuma/kurigram).
 
 ## Features
 
@@ -26,14 +26,6 @@ This project uses Kurigram.
    `pip install -r requirements.txt`
 3. Copy [config.example.py](config.example.py) to `config.py`.
 4. Fill in your real values in `config.py`.
-
-## Export requirements
-
-To export the exact packages from your virtual environment, run:
-
-`./bin/python -m pip freeze > requirements.txt`
-
-Current dependencies are listed in [requirements.txt](requirements.txt).
 
 ## Configuration
 
