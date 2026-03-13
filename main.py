@@ -108,7 +108,6 @@ def check_yahoo_email(username, password):
     """
     return check_email(username, password, "imap.mail.yahoo.com", "Yahoo")
 
-# Call the function and print the result
 
 app = Client(config.APP['session'], api_hash=config.APP['api_hash'], api_id=config.APP['api_id'], workdir=config.APP['workdir'])
 
